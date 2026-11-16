@@ -1,28 +1,21 @@
 # Tawsif Mahbub — Educational Website
 
-A free, responsive educational website starter for science learning.
+A responsive starter learning website with a dedicated Botany Notes page.
 
 ## Files
-- `index.html` — page structure and content
-- `style.css` — visual design and responsive layout
-- `script.js` — mobile navigation, subject search and current year
+- `index.html` — Home page
+- `botany.html` — Botany topic index
+- `style.css` — Website styles
+- `script.js` — Mobile menu and topic search
 
-## Run locally
-1. Extract this folder.
-2. Open the folder in Visual Studio Code.
-3. Open `index.html` with the Live Server extension, or open the file directly in a browser.
+## Publish with GitHub Pages
+1. Upload all four files to the root of your repository.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select branch `main` and folder `/(root)`, then Save.
+5. Wait for the deployment to finish.
 
-## Before publishing
-1. In `index.html`, replace `your-email@example.com` with your real public contact email.
-2. Review the About section and update any wording you want.
-3. Add your own notes and learning resources when ready.
+## Edit
+Open the files in VS Code or GitHub's editor. Commit your changes to update the live website.
 
-## Publish free with GitHub Pages
-1. Create a **public** GitHub repository, for example `tawsif-mahbub`.
-2. Upload the contents of this folder (make sure `index.html` is in the repository root).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose branch `main` and folder `/ (root)`, then Save.
-6. Wait for GitHub Pages to publish the site. The Pages section will show the website URL.
-
-No build tools or paid hosting are required.
+Note: The Botany page currently contains topic outlines only. Add verified course notes, diagrams and PDFs gradually.
