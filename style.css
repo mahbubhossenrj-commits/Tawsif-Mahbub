@@ -14,3 +14,7 @@
 .profile-info>p:last-child{color:#4e6256;margin:0;max-width:650px}
 @media(max-width:850px){.about-section{grid-template-columns:1fr;gap:25px}.profile-photo-wrap{width:220px}}
 @media(max-width:600px){.about-section{padding:45px 24px}.profile-photo-wrap{width:190px}}
+
+/* Use the user's portrait instead of the TM text logo */
+.brand-logo{display:block;width:44px;height:44px;object-fit:cover;object-position:center 25%;border-radius:50%;border:2px solid #d8e8dd}
+.footer-brand .brand-logo{width:40px;height:40px}
